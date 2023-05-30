@@ -9,13 +9,6 @@ background-attachment: fixed;
     width: 6px;
 }
 
-h1{
-    font-size: 54px;
-    font-weight: 700;
-    line-height: 60px;
-
-}
-
 .head_wrapper .navbar{
     padding: 15px 0;
     -webkit-transition: all .2s linear ;
@@ -47,12 +40,41 @@ h1{
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(to right, pink, purple );
+    background: linear-gradient(to right, rgba(0,0,255,0), rgba(0,0,255,1) );
     transition: 0.3s;
     bottom: 0;
 }
 .head_wrapper .nav-item .nav-link.active::after,
 .head_wrapper .nav-item .nav-link:hover::after{
-     width: 10%;
+     width: 100%;
  
+}
+
+section{
+    padding: 5rem 0;
+}
+.main-btn{
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 2.75rem;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.625rem 1.875rem rgb(0 55 120);
+    border: double 0.125rem  transparent;
+    padding: 0 2.625rem;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+}
+
+h1{
+    font-size: 4.735rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color:var( --text-white);
+    margin-bottom: 1.25rem;
+    font
 }
