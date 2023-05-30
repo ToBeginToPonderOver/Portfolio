@@ -4,3 +4,55 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+h1{
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.head_wrapper .navbar{
+    padding: 15px 0;
+    -webkit-transition: all .2s linear ;
+    -o-transition: all .2s linear ;
+    transition: all .2s linear ;
+}
+.head_wrapper .navbar-toggler{
+    border: 0;
+    color: blue ;
+    line-height: 2px;
+}
+.head_wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+.head_wrapper .nav-item{
+    margin: 0 10px;
+}
+
+.head_wrapper .nav-item .nav-link{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.head_wrapper .nav-item .nav-link::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, pink, purple );
+    transition: 0.3s;
+    bottom: 0;
+}
+.head_wrapper .nav-item .nav-link.active::after,
+.head_wrapper .nav-item .nav-link:hover::after{
+     width: 10%;
+ 
+}
