@@ -9,10 +9,11 @@ div{
     display: block;
 }
 
+                /*Navbar animation and style*/
+/*Starts*/
 ::-webkit-scrollbar{
     width: 6px;
 }
-
 .head_wrapper .navbar{
     padding: 15px 0;
     -webkit-transition: all .2s linear ;
@@ -52,6 +53,26 @@ div{
 .head_wrapper .nav-item .nav-link:hover::after{
      width: 100%;
 }
+/*Ends*/
+                /*Main logo pic of mine*/
+/*Starts*/
+.headshot {
+	flex-shrink: 0;
+	margin: 20px;
+	height: calc(150px + 6vw);
+	width: calc(150px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.headshot-2 {
+	border-radius: 50%;
+	background-image: var(--img-url), linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
+}
+/*Ends*/
 
 section{
     padding: auto;
@@ -78,15 +99,10 @@ h1{
     line-height: 60px;
     font-weight: 800;
     margin-bottom: 20px;
-
-
-
     color: grey !important
 
 }
-h1 span{
-    color: var(--info-color);   
-}
+/*
 h2{
     font-size: 23px;
     line-height: 6px;
@@ -109,21 +125,4 @@ h6{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-
-.headshot {
-	flex-shrink: 0;
-	margin: 20px;
-	height: calc(150px + 6vw);
-	width: calc(150px + 6vw);
-	border: calc(8px + 0.2vw) solid transparent;
-	background-origin: border-box;
-	background-clip: content-box, border-box;
-	background-size: cover;
-	box-sizing: border-box;
-	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-.headshot-2 {
-	border-radius: 50%;
-	background-image: var(--img-url), linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
-}
+}*/
