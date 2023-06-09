@@ -9,6 +9,44 @@ div{
     display: block;
 }
 
+.home-section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.intro{
+    max-width: 800px;
+}
+.intro h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+.intro h2{
+    font-size: 49px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.intro h4{
+    font-size: 41px;
+    font-weight: 600;
+}
+.intro h4 span{
+    color: linear gradient(to right #0d6efd, #0dcaf0);
+}
+.intro p{
+    font-size: 20px;
+}
+
+
+
+
+
                 /*Navbar animation and style*/
 /*Starts*/
 ::-webkit-scrollbar{
@@ -94,6 +132,7 @@ section{
     --webkit-transition: all .3s ease-in-out;
 }
 
+/*
 h1{
     font-size: 40px;
     line-height: 60px;
@@ -102,7 +141,6 @@ h1{
     color: grey !important
 
 }
-/*
 h2{
     font-size: 23px;
     line-height: 6px;
