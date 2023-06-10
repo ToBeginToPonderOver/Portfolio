@@ -20,7 +20,7 @@ div{
     align-items: center;
     padding: 70px 10% 0;
 }
-.intro{
+/* .intro{
     max-width: 800px;
 }
 .intro h6{
@@ -41,11 +41,7 @@ div{
 }
 .intro p{
     font-size: 20px;
-}
-
-
-
-
+} */
 
                 /*Navbar animation and style*/
 /*Starts*/
@@ -69,14 +65,12 @@ div{
 .head_wrapper .nav-item{
     margin: 0 10px;
 }
-
 .head_wrapper .nav-item .nav-link{
     position: relative;
     font-size: 16px;
     font-weight: 400;
     display: inline-block;
 }
-
 .head_wrapper .nav-item .nav-link::after{
     position: absolute;
     content: '';
@@ -92,6 +86,7 @@ div{
      width: 100%;
 }
 /*Ends*/
+
                 /*Main logo pic of mine*/
 /*Starts*/
 .headshot {
@@ -132,7 +127,7 @@ section{
     --webkit-transition: all .3s ease-in-out;
 }
 
-/*
+
 h1{
     font-size: 40px;
     line-height: 60px;
@@ -163,4 +158,4 @@ h6{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}*/
+}
