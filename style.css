@@ -1,5 +1,5 @@
 .blue-gradient{
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 50%);
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%); */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -167,6 +167,7 @@ section{
     max-width: 1290px;
     background: #fff;
     justify-items: center;
+    margin: 0 auto;
 }
 
                 /*About Section*/
@@ -174,8 +175,41 @@ section{
 .content{
     color: white !important;
 }
+.underline{
+    height: 8px;
+    background-image: #0dcaf0;
+    border: 0;
+    height: 5px;
+    width: 65px;
+}
+#cv{
+    padding-top: 20px;
+    
+}
 /*Ends*/
 
+                /*About-info*/
+/*Starts*/
+.about{
+    padding-bottom: 50px;
+    color: white;
+}
+.about h2{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0 0 20px;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*Ends*/
 
                 /*About info-media*/
 /*Starts*/
@@ -197,42 +231,14 @@ section{
 }
 /*Ends*/
 
-.underline{
-    background: black;
-    width: 50px;
-    border-top: 20px;
-}
-
-                /*About-info*/
+                /*Aboutimage*/
 /*Starts*/
-.about{
-    padding-bottom: 50px;
-}
-.about h2{
-    font-weight: 600;
-    font-size: 35px;
-    margin: 0 0 20px;
-    position: relative;
-    vertical-align: top;
-    z-index: 1;
-    text-transform: uppercase;
-    color: #fff;
-}
-.about p{
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-/*Ends*/
-
 .main{
     position: relative;
     z-index: 1;
     padding: 10px;
     background-image: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
 }
-
-
 .social-icons{
     background-image: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
     background-size: 370% 100%;
@@ -242,16 +248,23 @@ section{
     padding: 10px;
     border-radius: 0 20px 0px 0px;
 }
-
 .social-icons a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px;
     border-radius: 50%;
     margin: 0 5px;
-    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: saturate(180%) blur(20px);
-    position: relative;
-    transition: ease all 0.35s;
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
+#tag:hover{
+    background-position: right center;
+    color: whitesmoke;
+}
+/*Ends*/
