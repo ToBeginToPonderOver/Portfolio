@@ -1,5 +1,6 @@
 .blue-gradient{
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     --img-url: url(assests/me\ 2.jpg);
@@ -84,7 +85,7 @@ section{
 	box-sizing: border-box;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-.headshot-2 {
+.headshot-1 {
 	border-radius: 50%;
 	background-image: var(--img-url), linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
 }
@@ -162,6 +163,62 @@ section{
 }
 /*Ends*/
 
+.line{
+    max-width: 1290px;
+    background: #fff;
+    justify-items: center;
+}
+
+                /*About Section*/
+/*Starts*/
 .content{
     color: white !important;
+}
+/*Ends*/
+
+
+                /*About info-media*/
+/*Starts*/
+.media{
+    display: flex;
+    padding: 10px 0;
+}
+.media label {
+    font-size: 14px;
+    font-weight: 800;
+    max-width: 90px;
+    flex: 0 0 90px ;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) ; 
+}
+.media p{
+    margin-bottom: 0;
+    padding-left: 15px;
+    font-size: 14px;
+}
+/*Ends*/
+
+.underline{
+    background: black;
+    width: 50px;
+    border-top: 20px;
+}
+.about{
+    padding-bottom: 50px;
+}
+
+.about h2{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0 0 20px;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
