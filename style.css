@@ -202,10 +202,12 @@ section{
     width: 50px;
     border-top: 20px;
 }
+
+                /*About-info*/
+/*Starts*/
 .about{
     padding-bottom: 50px;
 }
-
 .about h2{
     font-weight: 600;
     font-size: 35px;
@@ -216,9 +218,40 @@ section{
     text-transform: uppercase;
     color: #fff;
 }
-
 .about p{
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+/*Ends*/
+
+.main{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    background-image: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
+}
+
+
+.social-icons{
+    background-image: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
+    background-size: 370% 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 0 20px 0px 0px;
+}
+
+.social-icons a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 0.5s;
+    backdrop-filter: saturate(180%) blur(20px);
+    position: relative;
+    transition: ease all 0.35s;
 }
