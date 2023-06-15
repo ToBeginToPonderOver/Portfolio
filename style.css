@@ -55,6 +55,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     display: inline-block;
+    color: aliceblue;
 }
 .head_wrapper .nav-item .nav-link::after{
     position: absolute;
@@ -70,8 +71,26 @@ section{
 .head_wrapper .nav-item .nav-link:hover::after{
      width: 100%;
 }
+.head_wrapper .nav-item .nav-link.active,
+.head_wrapper .nav-item .nav-link:hover{
+     color: whitesmoke
+}
 /*Ends*/
 
+.header-scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aquamarine;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+}
+.header-scrolled .nav-item .nav-link.active,
+.header-scrolled .nav-item .nav-link:hover{
+     color: whitesmoke
+}
+ 
                 /*Main logo pic of mine*/
 /*Starts*/
 .headshot {
@@ -288,7 +307,7 @@ section{
     backdrop-filter: saturate(180%) blur(20px);
 }
 .skills .progress-bar{
-    background: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
+    background: linear-gradient(to right, #0dcaf0 30%, #0d6efd 100%);
     transition: ease all 0.55s;
     position: relative;
 }
