@@ -270,20 +270,19 @@ section{
 }
 /*Ends*/
 
+                /*Skills section*/
+/*Starts*/
 .skills  h6{
     font-size: 16px;
     margin-bottom: 10px;
     color: #C0C0C0;
 }
-
 .skills{
     margin-top: 25px;
     position: relative;
     overflow: hidden;
 }
-
 .skills .progress{
-
     position: relative;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: saturate(180%) blur(20px);
@@ -300,4 +299,4 @@ section{
     font-size: 14px;
     color: #C0C0C0;
 }
-
+/*Ends*/
