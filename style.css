@@ -18,6 +18,7 @@ section{
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 70px 10% 0;
 }
@@ -165,7 +166,7 @@ section{
 
 .line{
     max-width: 1290px;
-    background: #fff;
+    background: #888888;
     justify-items: center;
     margin: 0 auto;
 }
@@ -268,3 +269,35 @@ section{
     color: whitesmoke;
 }
 /*Ends*/
+
+.skills  h6{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #C0C0C0;
+}
+
+.skills{
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills .progress{
+
+    position: relative;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.skills .progress-bar{
+    background: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
+    transition: ease all 0.55s;
+    position: relative;
+}
+.skills span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #C0C0C0;
+}
+
