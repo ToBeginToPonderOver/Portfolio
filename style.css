@@ -76,20 +76,6 @@ section{
      color: whitesmoke
 }
 /*Ends*/
-
-.header-scrolled{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: aquamarine;
-    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
-    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
-}
-.header-scrolled .nav-item .nav-link.active,
-.header-scrolled .nav-item .nav-link:hover{
-     color: whitesmoke
-}
  
                 /*Main logo pic of mine*/
 /*Starts*/
@@ -192,6 +178,9 @@ section{
 
                 /*About Section*/
 /*Starts*/
+.content .p{
+    margin-bottom: 2000px;
+}
 .content{
     color: white !important;
 }
@@ -260,7 +249,7 @@ section{
 }
 .social-icons{
     background-image: linear-gradient(to right, #0dcaf0, #0d6efd, #6610f2);
-    background-size: 370% 100%;
+    background-size: 300% 100%;
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -287,8 +276,7 @@ section{
 .social-icons a:hover{
     color: whitesmoke;
     transition: all.3s ease-in-out;
-    background-image: linear-gradient(to left, #0dcaf0, #0d6efd);
-    
+    background-color: #0d6efd;
 }
 /*Ends*/
 
