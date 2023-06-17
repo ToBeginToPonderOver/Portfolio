@@ -4,6 +4,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     --img-url: url(assests/me\ 2.jpg);
+    overflow-x: hidden;
 }
 
 section{
@@ -26,6 +27,16 @@ section{
 .home-section .banner-content{
     vertical-align: middle;
     align-self: center;
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 50%);
+}
+::-webkit-scrollbar-thumb{
+    background: #888888;
 }
 
                 /*Navbar animation and style*/
@@ -191,9 +202,6 @@ section{
     height: 5px;
     width: 65px;
 }
-#cv{
-    padding-top: 20px;
-}
 /*Ends*/
 
                 /*About-info*/
@@ -340,5 +348,9 @@ section{
     padding: 0.775rem 1.05rem;
     box-shadow: none;
     color: #fff;
+}
+.form-group{
+    /* border: 1px solid #DBE9FA; */
+    border-radius: 5px;
 }
 /*Ends*/
