@@ -29,6 +29,8 @@ section{
     align-self: center;
 }
 
+                /*Navbar Styling*/
+/*Starts*/
 ::-webkit-scrollbar{
     width: 2px;
 }
@@ -38,6 +40,7 @@ section{
 ::-webkit-scrollbar-thumb{
     background: #888888;
 }
+/*Ends*/
 
                 /*Navbar animation and style*/
 /*Starts*/
